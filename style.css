@@ -1,0 +1,52 @@
+* {
+  font-size: 60px;
+  font-family: "Playwrite ES Deco", cursives;
+}
+
+body {
+  background-color: lightblue;
+  background-image: url("food.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #98561c;
+  text-shadow: 5px 6px 15px #e67e22;
+}
+
+h2 {
+  color: #e67e22;
+}
+
+.btn {
+  width: 20%;
+}
+
+input[type="text"] {
+  width: 35vw;
+  border-radius: 40vw;
+  border-style: solid;
+  border-color: #8a4c14;
+  box-shadow: 10px 10px 12px rgb(65, 43, 22);
+}
+
+input[type="radio"] {
+  width: 1%;
+  height: 0.5em;
+}
+
+input[type="submit"] {
+  width: 20vw;
+  border-radius: 40vw;
+  border-style: solid;
+  border-color: #8a4c14;
+  box-shadow: 10px 10px 12px rgb(65, 43, 22);
+}
+
+input[type="submit"]:hover {
+  color: #e67e22;
+}
